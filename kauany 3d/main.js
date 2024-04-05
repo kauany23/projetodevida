@@ -13,4 +13,23 @@ for (let i = 0; i < botoes.length; i++) {
         textos[i].classList.add("ativo");
     }
 }
+.contador{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.contador-digito{
+  padding: 0 16px;
+  text-align: center;
+  min-width: 100px;
+}
+.contador-digito-número{
+  font-size: 80px;
+  margin: 0;
+}
+.contador-digito-texto{
+  color: var(--verde);
+  font-size: 20px;
+  margin: 0;
+}
 
